@@ -46,7 +46,7 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "OracleTable1",
+						"referenceName": "OracleTable2",
 						"type": "DatasetReference"
 					}
 				],
