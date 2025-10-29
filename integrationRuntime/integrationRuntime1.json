@@ -1,0 +1,12 @@
+{
+	"name": "integrationRuntime1",
+	"properties": {
+		"type": "SelfHosted",
+		"typeProperties": {
+			"linkedInfo": {
+				"resourceId": "/subscriptions/7baf12ad-7966-45d1-a4f3-7afe85124941/resourcegroups/fzrg/providers/Microsoft.DataFactory/factories/testADFfz/integrationruntimes/SHIR-IR",
+				"authorizationType": "Rbac"
+			}
+		}
+	}
+}
