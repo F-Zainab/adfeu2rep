@@ -2,6 +2,17 @@
 	"name": "Oracle1",
 	"type": "Microsoft.DataFactory/factories/linkedservices",
 	"properties": {
+		"parameters": {
+			"user": {
+				"type": "string"
+			},
+			"oracle_server": {
+				"type": "string"
+			},
+			"secret_name_password": {
+				"type": "string"
+			}
+		},
 		"annotations": [],
 		"type": "Oracle",
 		"version": "2.0",
@@ -9,11 +20,7 @@
 			"server": "dsgfjiyjdgfhgf",
 			"authenticationType": "Basic",
 			"username": "fzainab",
-			"encryptionClient": "accepted",
-			"encryptionTypesClient": "(AES128, AES192, AES256, 3DES112, 3DES168)",
-			"cryptoChecksumClient": "accepted",
-			"cryptoChecksumTypesClient": "(SHA1, SHA256, SHA384, SHA512)",
-			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI3OTA0NzI2MC1iMDFiLTQ3YzItOWYxOC1hMTA2NWYxZTM4NjAiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI5ZmI3N2I0MC03OWQ3LTQzZmYtYmQwNS03Mzg4NmI4OGE2NzciLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
 		},
 		"connectVia": {
 			"referenceName": "integrationRuntime1",

@@ -47,7 +47,21 @@
 				"inputs": [
 					{
 						"referenceName": "OracleTable2",
-						"type": "DatasetReference"
+						"type": "DatasetReference",
+						"parameters": {
+							"oracle_secret": {
+								"value": "@pipeline().parameters.oracle_secret",
+								"type": "Expression"
+							},
+							"user": {
+								"value": "@pipeline().parameters.user",
+								"type": "Expression"
+							},
+							"oracle_server": {
+								"value": "@pipeline().parameters.oracle_server",
+								"type": "Expression"
+							}
+						}
 					}
 				],
 				"outputs": [
@@ -58,6 +72,24 @@
 				]
 			}
 		],
+		"parameters": {
+			"oracle_secret": {
+				"type": "string",
+				"defaultValue": "oracle-talendods"
+			},
+			"user": {
+				"type": "string",
+				"defaultValue": "TALEND_ODS"
+			},
+			"oracle_server": {
+				"type": "string",
+				"defaultValue": "talend-db1-dev.ssc.tsc:1521/DTALEND1.ssc"
+			},
+			"sw_account": {
+				"type": "string",
+				"defaultValue": "tractorsupply.east-us-2.azure"
+			}
+		},
 		"annotations": [],
 		"lastPublishTime": "2025-10-29T15:31:20Z"
 	},
