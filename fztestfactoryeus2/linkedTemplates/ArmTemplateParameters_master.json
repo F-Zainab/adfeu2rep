@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "fztestfactoryeus2"
+		},
+		"Oracle1_password": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://fzteststorage2.dfs.core.windows.net/"
+		},
+		"Oracle1_properties_typeProperties_server": {
+			"value": "dsgfjiyjdgfhgf"
+		},
+		"Oracle1_properties_typeProperties_username": {
+			"value": "fzainab"
+		},
+		"integrationRuntime1_properties_typeProperties_linkedInfo_resourceId": {
+			"value": "/subscriptions/7baf12ad-7966-45d1-a4f3-7afe85124941/resourcegroups/fzrg/providers/Microsoft.DataFactory/factories/testADFfz/integrationruntimes/SHIR-IR"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
