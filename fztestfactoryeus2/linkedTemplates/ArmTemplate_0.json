@@ -268,7 +268,7 @@
 				"parameters": {
 					"oracle_secret": {
 						"type": "string",
-						"defaultValue": "oracle-talendods"
+						"defaultValue": "oracle-talendodss"
 					},
 					"user": {
 						"type": "string",
